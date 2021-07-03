@@ -8,7 +8,9 @@ repository = "https://github.com/mudcano/telnet-codec"
 description = """
 A humble codec for converting a byte stream into TelnetEvents which other programs can use.
 """
-categories = ["asynchronous", "tokio", "telnet", "mud"]
+keywords = ["asynchronous", "tokio", "telnet", "mud", "codec"]
+categories = ["encoding", "network-programming"]
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
