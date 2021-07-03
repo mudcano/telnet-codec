@@ -3,7 +3,7 @@ name = "telnet-codec"
 version = "0.1.0"
 edition = "2018"
 authors = ["The Mudcano Project"]
-license = "LGPL"
+license = "LGPL-3.0-or-later"
 repository = "https://github.com/mudcano/telnet-codec"
 description = """
 A humble codec for converting a byte stream into TelnetEvents which other programs can use.
