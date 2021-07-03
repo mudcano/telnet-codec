@@ -1,0 +1,17 @@
+[package]
+name = "telnet-codec"
+version = "0.1.0"
+edition = "2018"
+authors = ["The Mudcano Project"]
+license = "LGPL"
+repository = "https://github.com/mudcano/telnet-codec"
+description = """
+A humble codec for converting a byte stream into TelnetEvents which other programs can use.
+"""
+categories = ["asynchronous", "tokio", "telnet", "mud"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio-util = {version = "0.6", features = ["codec"]}
+bytes = "1.0"
